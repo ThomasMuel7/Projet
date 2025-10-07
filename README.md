@@ -90,21 +90,32 @@ Once activated, your terminal prompt should change to show:
 
 After activating your virtual environment, install all required dependencies from the `requirements.txt` file.
 
-#### macOS / Linux / Windows (PowerShell or CMD)
+First you may have to upgrade the version of your pip
 ```bash
-pip install -r requirements.txt
+pip install --upgrade pip
 ```
 
-If your `requirements.txt` file is empty, you can manually install packages (for example):
+#### macOS / Linux
 ```bash
-pip install requests flask
+pip install -r requirements_maclinux.txt
 ```
 
-To save your current environment’s packages for future use:
+#### Windows (Powershell or CMD)
 ```bash
-pip freeze > requirements.txt
+pip install -r requirements_windows.txt
 ```
 
+If this fails : 
+You have to install the following packages : 
+
+```bash
+pip install numpy
+pip install sympy
+pip install matplotlib
+pip install qiskit
+pip install qiskit-aer
+pip install 'qiskit[visualization]'
+```
 ---
 
 ### 🧹 Step 5: Deactivating the Virtual Environment

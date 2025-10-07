@@ -69,7 +69,7 @@ def simulate_shor(qc):
     return counts
 
 def estimate_period(N, value, nb_precision_qubits):
-    phase = value / 2**nb_precision_qubits  # Since we have 4 qubits in the counting register
+    phase = value / 2**nb_precision_qubits 
     frac = Fraction(phase).limit_denominator(N)
     r = frac.denominator
     return r
