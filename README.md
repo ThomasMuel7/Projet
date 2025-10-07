@@ -1,4 +1,4 @@
-# 🧩 Preliminary Requirements
+# Preliminary Requirements
 
 To see this readme in a beautiful way : 
 1. If you are on VSCode you can use the "Ctrl+Shift+V" command. 
@@ -9,13 +9,13 @@ A virtual environment helps you isolate dependencies, ensuring they don’t conf
 
 ---
 
-## 🐍 Python Virtual Environment Setup (macOS, Windows, Linux) — *Recommended*
+## Python Virtual Environment Setup (macOS, Windows, Linux) — *Recommended*
 
 This guide will help you **create**, **activate**, **use**, and **deactivate** Python virtual environments on **macOS**, **Linux**, and **Windows**.
 
 ---
 
-### 🧠 Step 1: Check if Python is Installed
+### Step 1: Check if Python is Installed
 
 #### macOS / Linux
 ```bash
@@ -43,7 +43,7 @@ If Python is not installed:
 
 ---
 
-### ⚙️ Step 2: Create a Virtual Environment
+### Step 2: Create a Virtual Environment
 
 Navigate to your project’s repository directory and run:
 
@@ -61,7 +61,7 @@ This will create a new folder named `.venv` containing your isolated Python envi
 
 ---
 
-### 🚀 Step 3: Activate the Virtual Environment
+### Step 3: Activate the Virtual Environment
 
 #### macOS / Linux
 ```bash
@@ -86,7 +86,7 @@ Once activated, your terminal prompt should change to show:
 
 ---
 
-### 📦 Step 4: Installing Required Python Packages
+### Step 4: Installing Required Python Packages
 
 After activating your virtual environment, install all required dependencies from the `requirements.txt` file.
 
@@ -118,7 +118,7 @@ pip install 'qiskit[visualization]'
 ```
 ---
 
-### 🧹 Step 5: Deactivating the Virtual Environment
+### Step 5: Deactivating the Virtual Environment
 
 When you are done working in your virtual environment, simply run:
 ```bash
@@ -134,7 +134,7 @@ Your terminal prompt will return to normal, and Python will use your system’s 
 
 # Running Jupyter
 
-# 📝 Using Jupyter Notebook
+## Using Jupyter Notebook
 
 You can start Jupyter Notebook via the **command prompt** (Windows) or **terminal** (macOS/Linux) by entering:
 
@@ -146,7 +146,7 @@ By default, the current working directory will be the **start-up directory** (Wh
 
 ---
 
-## 🌐 Accessing Jupyter in Your Browser
+### Accessing Jupyter in Your Browser
 
 Once Jupyter Notebook opens in your browser, the URL will look something like:
 
@@ -161,7 +161,7 @@ https://localhost:8888/tree
 
 ---
 
-## 📂 Navigating the Dashboard
+### Navigating the Dashboard
 
 The dashboard interface is mostly self-explanatory. To open your lab notebook:
 
@@ -173,18 +173,18 @@ The dashboard interface is mostly self-explanatory. To open your lab notebook:
 
 ---
 
-## 🧠 Key Concepts: Kernel and Cell
+### Key Concepts: Kernel and Cell
 
 Two important terms in Jupyter Notebook:
 
-### Kernel
+#### Kernel
 
 The **kernel** is like the **brain** of the notebook.
 
 * It runs your code, processes it, and returns the output.
 * Each notebook is connected to a specific kernel that understands a particular programming language (like Python).
 
-### Cell
+#### Cell
 
 A **cell** is a block or section for code or text.
 
@@ -194,7 +194,7 @@ A **cell** is a block or section for code or text.
 
 ---
 
-## 🔹 Types of Cells
+### Types of Cells
 
 There are two main types of cells:
 
@@ -212,7 +212,7 @@ There are two main types of cells:
 
 ---
 
-## 🏁 Example: "Hello World!"
+### Example: "Hello World!"
 
 1. Create a cell by clicking on the top left "+" symbol. (See you can also modify the type of the cell)
 
