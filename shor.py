@@ -102,7 +102,7 @@ def shor(a, N):
     num_control = 2 * num_target  # for enough precision of estimation
     print("Initializing the circuit...")
     circuit = initialize_circuit(a, N, num_target, num_control)
-    circuit.draw("mpl", filename='shor_circuit.png')
+    circuit.draw("mpl", filename="images/shor215.png")
     print("Circuit initialized")
     print("Simulating the circuit...")
     counts = simulate_shor(circuit)
