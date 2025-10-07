@@ -45,7 +45,7 @@ If Python is not installed:
 
 ### Step 2: Create a Virtual Environment
 
-Make sure you are in the right repository. We advice you to use the unzip directory of the lab. Then run this command :
+Make sure you are in the right repository. We advice you to use the unzipped directory of the lab (the project directory). Then run this command :
 
 #### macOS / Linux
 ```bash

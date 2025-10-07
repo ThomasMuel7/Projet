@@ -102,6 +102,7 @@ def shor(a, N):
     num_control = 2 * num_target  # for enough precision of estimation
     print("Initializing the circuit...")
     circuit = initialize_circuit(a, N, num_target, num_control)
+    circuit.draw("mpl", filename='shor_circuit.png')
     print("Circuit initialized")
     print("Simulating the circuit...")
     counts = simulate_shor(circuit)
@@ -122,4 +123,4 @@ def shor(a, N):
     print("Failed to find factors.")
     return
 
-shor(3, 22)
+shor(2, 15)
