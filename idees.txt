@@ -1,7 +1,0 @@
-1) Lab Cryptographie post-quantique
-
-2) Protocole TCP à revoir
-
-3) Ethical Hacking from IP (CTF)
-
-4) AES
