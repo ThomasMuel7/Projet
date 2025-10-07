@@ -2,7 +2,7 @@
 
 To see this readme in a beautiful way : 
 1. If you are on VSCode you can use the "Ctrl+Shift+V" command. 
-2. For the others try to visualise it via this website : https://markdownlivepreview.com/ and copy pasting everything in the browser.
+2. For the others try to visualise it via a markdown visualiser online (for example : https://markdownlivepreview.com/) and copy paste the content of this readme in this website.
 
 It is recommended for this lab to create a **Python virtual environment** before running any code.  
 A virtual environment helps you isolate dependencies, ensuring they don’t conflict with system-wide Python packages.
@@ -45,7 +45,7 @@ If Python is not installed:
 
 ### Step 2: Create a Virtual Environment
 
-Navigate to your project’s repository directory and run:
+Make sure you are in the right repository. We advice you to use the unzip directory of the lab. Then run this command :
 
 #### macOS / Linux
 ```bash
@@ -57,7 +57,7 @@ python3 -m venv .venv
 python -m venv .venv
 ```
 
-This will create a new folder named `.venv` containing your isolated Python environment.
+This will create a new folder named `.venv` containing your isolated Python environment. The . before the name of the folder will allow the directory to not be displayed if you see your tree of files. 
 
 ---
 
