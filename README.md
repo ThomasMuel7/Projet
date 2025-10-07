@@ -84,6 +84,7 @@ Once activated, your terminal prompt should change to show:
 (.venv)
 ```
 
+Don't forget your venv everytime you restart your terminal
 ---
 
 ### Step 4: Installing Required Python Packages
