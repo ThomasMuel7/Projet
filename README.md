@@ -83,8 +83,8 @@ Once activated, your terminal prompt should change to show:
 ```
 (.venv)
 ```
+**Don't forget to activate/reactivate your venv everytime you restart your terminal/everytime you are working on the lab.**
 
-Don't forget your venv everytime you restart your terminal
 ---
 
 ### Step 4: Installing Required Python Packages
